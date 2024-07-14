@@ -1,0 +1,122 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body
+{
+    width: auto;
+    height: auto;
+    background: #1c163f;
+    overflow: hidden;
+}
+
+a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.home a
+{
+    color: #90e0ef;
+    text-decoration: none;
+}
+.div
+{
+    color: aliceblue;
+    width: auto;
+    margin-top: 30px;
+    margin-left: 10%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div1
+{
+    width: 40%;
+    margin-right: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home
+{
+    border-bottom:  5px solid #90e0ef ;
+}
+
+.div :hover
+{
+    color: #90e0ef;
+}
+
+.title a
+{
+    color: #ededed;
+    font-weight: 600;
+}
+
+.cart
+{
+    position: absolute;
+    width: 46%;
+    height: 55%;
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+.img2
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid  #ededed;
+    box-shadow: 7px 5px 25px #4895EF;
+}
+
+.name
+{
+    color: #4CC9F0;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: inherit;
+}
+
+.b1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job_div
+{
+    font-size: 30px;
+    width: 440px;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.job1
+{
+    width: 70%;
+    color: #3887BE;
+}
+
+.introduction
+{
+    height: auto;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+}
