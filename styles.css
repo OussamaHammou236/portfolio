@@ -20,6 +20,7 @@ a
 {
     color: #90e0ef;
     text-decoration: none;
+    border-bottom:  5px solid #90e0ef;
 }
 .div
 {
@@ -42,10 +43,11 @@ a
     flex-direction: row;
     justify-content: space-between;
 }
-.home
+/* .home
 {
-    border-bottom:  5px solid #90e0ef ;
-}
+    border-bottom:  5px solid #90e0ef;
+    border-bottom: none; 
+} */
 
 .div :hover
 {
@@ -134,4 +136,53 @@ a
 {
     width: 500px;
     margin-top: 200px;
+}
+
+
+.project_page
+{
+    width: 150px;
+    border: 2px solid red;
+    color: rgb(75, 255, 4);
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 50px;
+    margin-left: 40%;
+    margin-top: 200px;
+}
+
+.contact_page
+{
+    width: 150px;
+    border: 2px solid green;
+    color: rgb(47, 0, 255);
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 50px;
+    margin-left: 40%;
+    margin-top: 200px;
+}
+
+.about_page
+{
+    width: 150px;
+    border: 2px solid rgb(75, 255, 4);
+    color: red;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 50px;
+    margin-left: 40%;
+    margin-top: 200px;   
+}
+
+.services_page
+{
+    width: 150px;
+    border: 2px solid rgb(47, 0, 255);
+    color: green;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 50px;
+    margin-left: 40%;
+    margin-top: 200px; 
 }
