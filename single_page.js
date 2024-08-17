@@ -26,8 +26,6 @@ function rest_element(boton)
 function project(boton)
 {
     delet_element("contact_page");
-    delet_element("about_page");
-    delet_element("services_page");
     delet_element("cart");
     rest_element(boton);
 }
@@ -36,26 +34,6 @@ function contact(boton)
 {
     delet_element("cart");
     delet_element("project_page");
-    delet_element("about_page");
-    delet_element("services_page");
-    rest_element(boton);
-}
-
-function services(boton)
-{
-    delet_element("cart");
-    delet_element("contact_page");
-    delet_element("about_page");
-    delet_element("project_page");
-    rest_element(boton);
-}
-
-function about(boton)
-{
-    delet_element("contact_page");
-    delet_element("project_page");
-    delet_element("services_page");
-    delet_element("cart");
     rest_element(boton);
 }
 
@@ -63,7 +41,5 @@ function home(boton)
 {
     delet_element("contact_page");
     delet_element("project_page");
-    delet_element("services_page");
-    delet_element("about_page");
     rest_element(boton);
 }
