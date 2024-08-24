@@ -76,7 +76,7 @@ a
     height: 200px;
     border-radius: 50%;
     border: 2px solid  #ededed;
-    box-shadow: 7px 5px 25px #4895EF;
+    filter: drop-shadow(7px 5px 25px #4895EF);
 }
 
 .name
