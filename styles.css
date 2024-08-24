@@ -352,6 +352,10 @@ a
         width: 100%;
         height: 100%;
     }
+    .img2
+    {
+        filter: drop-shadow(1px 1px 10px #4895EF);
+    }
 }
 
 @media (max-width: 400px)
